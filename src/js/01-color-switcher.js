@@ -4,8 +4,8 @@ const bodyRef = document.body;
 
 let timerId = null;
 const INTERVAL_DELAY = 1000;
-// startBtn.disabled = false;
-// stopBtn.disabled = true;
+startBtn.disabled = false;
+stopBtn.disabled = true;
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
