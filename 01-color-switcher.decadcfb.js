@@ -1,0 +1,2 @@
+const t=document.querySelector("button[data-start]"),e=document.querySelector("button[data-stop]"),n=document.body;let o=null;function a(){n.style.background=`#${Math.floor(16777215*Math.random()).toString(16)}`}function c(n,o){t.disabled=n,e.disabled=o}c(!1,!0),t.addEventListener("click",(function(){o=setInterval(a,1e3),c(!0,!1)})),e.addEventListener("click",(function(){clearInterval(o),c(!1,!0)}));
+//# sourceMappingURL=01-color-switcher.decadcfb.js.map
